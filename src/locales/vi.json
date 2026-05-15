@@ -1,0 +1,110 @@
+{
+  "common": {
+    "loading": "Đang tải...",
+    "error": "Đã xảy ra lỗi",
+    "save": "Lưu",
+    "cancel": "Hủy",
+    "delete": "Xóa",
+    "edit": "Sửa",
+    "add": "Thêm",
+    "search": "Tìm kiếm...",
+    "noData": "Không có dữ liệu",
+    "confirm": "Xác nhận",
+    "currency": "VND"
+  },
+  "auth": {
+    "title": "ĐĂNG NHẬP HỆ THỐNG",
+    "username": "Tên đăng nhập",
+    "password": "Mật khẩu",
+    "usernamePlaceholder": "Nhập username",
+    "passwordPlaceholder": "Nhập password",
+    "usernameRequired": "Vui lòng nhập tài khoản!",
+    "passwordRequired": "Vui lòng nhập mật khẩu!",
+    "loginButton": "Đăng nhập",
+    "loginSuccess": "Đăng nhập thành công!",
+    "loginFailed": "Tài khoản hoặc mật khẩu không đúng!",
+    "networkError": "Lỗi kết nối mạng, vui lòng thử lại sau.",
+    "checkingAccess": "Đang kiểm tra quyền truy cập hệ thống...",
+    "logout": "Đăng xuất",
+    "greeting": "Chào"
+  },
+  "shop": {
+    "title": "Shop",
+    "addProduct": "Thêm Sản Phẩm",
+    "loadingProducts": "Đang tải sản phẩm...",
+    "loadError": "Không tải được danh sách sản phẩm.",
+    "noProducts": "Không có sản phẩm",
+    "noSearchResult": "Không tìm thấy sản phẩm nào phù hợp với \"{{term}}\"",
+    "prevPage": "← Trước",
+    "nextPage": "Sau →",
+    "confirmDelete": "Xác nhận xóa",
+    "confirmDeleteContent": "Bạn chắc chắn muốn xóa sản phẩm này?",
+    "deleteSuccess": "Xóa sản phẩm thành công!",
+    "updateSuccess": "Cập nhật sản phẩm thành công!",
+    "addSuccess": "Thêm sản phẩm thành công!",
+    "saveError": "Lỗi khi lưu sản phẩm"
+  },
+  "productDetail": {
+    "breadcrumb": "Product",
+    "loadingDetail": "Đang tải chi tiết sản phẩm...",
+    "notFound": "Không tìm thấy sản phẩm.",
+    "loadError": "Lỗi khi tải chi tiết sản phẩm.",
+    "selectColor": "Chọn màu sắc",
+    "selectedColor": "Màu đã chọn",
+    "buyNow": "Mua Ngay",
+    "addToCart": "Thêm vào giỏ hàng",
+    "addedToCart": "Đã thêm {{name}} ({{color}}) vào giỏ hàng!"
+  },
+  "productModal": {
+    "editTitle": "Sửa Sản Phẩm",
+    "addTitle": "Thêm Sản Phẩm Mới",
+    "nameLabel": "Tên Sản Phẩm",
+    "namePlaceholder": "Nhập tên sản phẩm",
+    "nameRequired": "Vui lòng nhập tên sản phẩm!",
+    "priceLabel": "Giá (VND)",
+    "pricePlaceholder": "Nhập giá",
+    "priceRequired": "Vui lòng nhập giá sản phẩm!",
+    "ratingLabel": "Đánh Giá (1-5)",
+    "imageLabel": "Ảnh URL",
+    "imagePlaceholder": "Nhập URL ảnh",
+    "updateButton": "Cập nhật",
+    "addButton": "Thêm mới"
+  },
+  "cart": {
+    "title": "Cart",
+    "itemCount": "{{count}} items in bag",
+    "empty": "Không có sản phẩm nào trong giỏ.",
+    "phone": "Điện thoại",
+    "removeItem": "Xóa món",
+    "subTotal": "SubTotal",
+    "tax": "Tax",
+    "total": "Total"
+  },
+  "profile": {
+    "title": "My Profile",
+    "notLoggedIn": "Vui lòng đăng nhập để xem thông tin cá nhân.",
+    "personalInfo": "Thông tin cá nhân",
+    "dateOfBirth": "Ngày sinh",
+    "gender": "Giới tính",
+    "male": "Nam",
+    "female": "Nữ",
+    "companyAddress": "Địa chỉ công ty",
+    "homeAddress": "Địa chỉ nhà"
+  },
+  "layout": {
+    "appName": "Mobile Shopping",
+    "menu": "Menu",
+    "footer": {
+      "about": "Về chúng tôi",
+      "aboutText": "Mobile Shopping - Cửa hàng điện thoại di động hàng đầu Việt Nam",
+      "contact": "Liên hệ",
+      "email": "Email: info@mobileshopping.com",
+      "phone": "Phone: 1800-1234",
+      "follow": "Theo dõi",
+      "social": "Facebook | Instagram | Twitter",
+      "support": "Hỗ trợ",
+      "privacy": "Chính sách bảo mật",
+      "terms": "Điều khoản sử dụng"
+    }
+  }
+}

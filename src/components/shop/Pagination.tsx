@@ -1,7 +1,15 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import styles from "../../pages/shop/ShopPage.module.css";
 
-const Pagination = ({ currentPage, totalPages, onPageChange }) => {
+interface PaginationProps {
+  currentPage: number;
+  totalPages: number;
+  onPageChange: (page: number) => void;
+}
+
+const Pagination: React.FC<PaginationProps> = ({ currentPage, totalPages, onPageChange }) => {
+  const { t } = useTranslation();
   if (totalPages <= 1) return null;
 
   return (
@@ -11,15 +19,13 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
         disabled={currentPage === 1}
         onClick={() => onPageChange(currentPage - 1)}
       >
-        ← Trước
+        {t("shop.prevPage")}
       </button>
 
       {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
         <button
           key={page}
-          className={`${styles.pageBtn} ${
-            page === currentPage ? styles.active : ""
-          }`}
+          className={`${styles.pageBtn} ${page === currentPage ? styles.active : ""}`}
           onClick={() => onPageChange(page)}
         >
           {page}
@@ -31,7 +37,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
         disabled={currentPage === totalPages}
         onClick={() => onPageChange(currentPage + 1)}
       >
-        Sau →
+        {t("shop.nextPage")}
       </button>
     </div>
   );

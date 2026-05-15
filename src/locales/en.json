@@ -1,0 +1,110 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "search": "Search...",
+    "noData": "No data",
+    "confirm": "Confirm",
+    "currency": "VND"
+  },
+  "auth": {
+    "title": "SYSTEM LOGIN",
+    "username": "Username",
+    "password": "Password",
+    "usernamePlaceholder": "Enter username",
+    "passwordPlaceholder": "Enter password",
+    "usernameRequired": "Please enter your username!",
+    "passwordRequired": "Please enter your password!",
+    "loginButton": "Login",
+    "loginSuccess": "Login successful!",
+    "loginFailed": "Invalid username or password!",
+    "networkError": "Network error, please try again later.",
+    "checkingAccess": "Checking system access...",
+    "logout": "Logout",
+    "greeting": "Hello"
+  },
+  "shop": {
+    "title": "Shop",
+    "addProduct": "Add Product",
+    "loadingProducts": "Loading products...",
+    "loadError": "Failed to load product list.",
+    "noProducts": "No products",
+    "noSearchResult": "No products found matching \"{{term}}\"",
+    "prevPage": "← Previous",
+    "nextPage": "Next →",
+    "confirmDelete": "Confirm Delete",
+    "confirmDeleteContent": "Are you sure you want to delete this product?",
+    "deleteSuccess": "Product deleted successfully!",
+    "updateSuccess": "Product updated successfully!",
+    "addSuccess": "Product added successfully!",
+    "saveError": "Error saving product"
+  },
+  "productDetail": {
+    "breadcrumb": "Product",
+    "loadingDetail": "Loading product details...",
+    "notFound": "Product not found.",
+    "loadError": "Error loading product details.",
+    "selectColor": "Select color",
+    "selectedColor": "Selected color",
+    "buyNow": "Buy Now",
+    "addToCart": "Add to Cart",
+    "addedToCart": "Added {{name}} ({{color}}) to cart!"
+  },
+  "productModal": {
+    "editTitle": "Edit Product",
+    "addTitle": "Add New Product",
+    "nameLabel": "Product Name",
+    "namePlaceholder": "Enter product name",
+    "nameRequired": "Please enter product name!",
+    "priceLabel": "Price (VND)",
+    "pricePlaceholder": "Enter price",
+    "priceRequired": "Please enter product price!",
+    "ratingLabel": "Rating (1-5)",
+    "imageLabel": "Image URL",
+    "imagePlaceholder": "Enter image URL",
+    "updateButton": "Update",
+    "addButton": "Add New"
+  },
+  "cart": {
+    "title": "Cart",
+    "itemCount": "{{count}} items in bag",
+    "empty": "Your cart is empty.",
+    "phone": "Phone",
+    "removeItem": "Remove",
+    "subTotal": "SubTotal",
+    "tax": "Tax",
+    "total": "Total"
+  },
+  "profile": {
+    "title": "My Profile",
+    "notLoggedIn": "Please login to view your profile.",
+    "personalInfo": "Personal Information",
+    "dateOfBirth": "Date of Birth",
+    "gender": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "companyAddress": "Company Address",
+    "homeAddress": "Home Address"
+  },
+  "layout": {
+    "appName": "Mobile Shopping",
+    "menu": "Menu",
+    "footer": {
+      "about": "About Us",
+      "aboutText": "Mobile Shopping - Vietnam's leading mobile phone store",
+      "contact": "Contact",
+      "email": "Email: info@mobileshopping.com",
+      "phone": "Phone: 1800-1234",
+      "follow": "Follow Us",
+      "social": "Facebook | Instagram | Twitter",
+      "support": "Support",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    }
+  }
+}

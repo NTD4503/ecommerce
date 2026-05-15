@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { useCart } from "../../context/CartContext";
+import { useSelector } from "react-redux";
+import { selectTotalItems } from "../../redux/cartSlice";
 import { Cart } from "../../assets";
 import styles from "./CartIcon.module.css";
 
-const CartIcon = () => {
-  const { totalItems } = useCart();
+const CartIcon: React.FC = () => {
+  const totalItems = useSelector(selectTotalItems);
   return (
     <Link to="/cart" className={styles.cartWrapper}>
       <img src={Cart} alt="Shopping Cart" className={styles.cartIcon} />
