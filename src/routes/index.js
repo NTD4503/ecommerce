@@ -1,4 +1,3 @@
-// src/routes/index.js
 import LoginPage from "../pages/login/LoginPage";
 import ShopPage from "../pages/shop/ShopPage";
 import ProductDetailPage from "../pages/shop/ProductDetailPage";

@@ -1,15 +1,20 @@
-import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { useNavigate, Navigate } from "react-router-dom";
 import { useAuth } from "../../context/AuthContext";
 import styles from "./LoginPage.module.css";
 import { Button, Form, Input, message, Alert } from "antd";
 
 const LoginPage = () => {
   const navigate = useNavigate();
-  const { loginRefresh } = useAuth();
+  const { loginRefresh, isAuthenticated, loading: authLoading } = useAuth();
 
   const [loading, setLoading] = useState(false);
   const [errorMessage, setErrorMessage] = useState("");
+
+  if (authLoading) return null;
+  if (isAuthenticated) {
+    return <Navigate to="/shop" replace />;
+  }
 
   const handleLoginSubmit = async (values) => {
     setLoading(true);
@@ -30,7 +35,7 @@ const LoginPage = () => {
       const data = await response.json();
 
       if (response.ok) {
-        const tokenValue = data.accessToken || data.token;
+        const tokenValue = data.accessToken;
         localStorage.setItem("accessToken", tokenValue);
         loginRefresh(tokenValue);
 

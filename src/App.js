@@ -15,14 +15,12 @@ function App() {
               const Page = route.component;
               const Layout = route.layout ? route.layout : Fragment;
 
-              // Login route không cần auth
               if (route.path === "/") {
                 return (
                   <Route key={index} path={route.path} element={<Page />} />
                 );
               }
 
-              // Protected routes cần auth
               return (
                 <Route key={index} element={<AuthMiddleware />}>
                   <Route
